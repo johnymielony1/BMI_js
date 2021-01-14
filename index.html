@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator BMI</title>
+</head>
+<body>
+    <header class="display-1">Kalkulator BMI</header>
+    <div class="container">
+        <!-- <input type="number"> Podaj swoją wagę w kilogramach<br>
+        <input type="number"> Podaj swój wzrost w centymetrach <br> -->
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Waga [kg]</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Wzrost [cm]</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+        <button type="button" class="btn btn-outline-dark">Oblicz swoje BMI</button>
+        <div class="result"></div>
+        <div class="diagnoza"></div>
+        <!-- <div class="legenda">
+            <li>poniżej 16,0 – wygłodzenie</li>
+            <li>16,0–17,0 – wychudzenie (spowodowane często przez ciężką chorobę)</li>
+            <li>17–18,5 – niedowagę</li>
+            <li>18,5–25,0 – wartość prawidłową</li>
+            <li>25,0–30,0 – nadwagę</li>
+            <li>30,0–35,0 – I stopień otyłości</li>
+            <li>35,0–40,0 – II stopień otyłości</li>
+            <li>powyżej 40,0 – III stopień otyłości (otyłość skrajna)</li>
+        </div> -->
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
